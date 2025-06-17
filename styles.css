@@ -1,25 +1,61 @@
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-    font-family: sans-serif;
+/* Styling the logo to be bigger or more stylish */
+.logo {
+    font-size: 40px;
+    color: #ffcc5b;
+    margin-right: 20px;
 }
 
-main {
+/* Customize colors, borders, backgrounds etc. */
+body {
+    background: #f5f5dc;
+    color: #333;
+}
+
+header {
+    background: #ffcc5b;
+    color: #fff;
+    padding: 20px;
+    border-bottom: 5px solid #ff9900;
+}
+
+header ul {
     display: flex;
-    flex-direction: row;
-    flex: auto;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    color: #ff9900;
 }
 
 article {
-    flex: 2;
-    overflow-y: auto;
+    background: #ffffff;
     padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0003;
 }
 
 aside {
-    flex: 1;
-    overflow-y: auto;
+    background: #ffcc5b;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0003;
+}
+
+footer {
+    background: #ffcc5b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid #ff9900;
 }
